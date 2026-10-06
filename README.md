@@ -1,5 +1,10 @@
 # TAEGAN
 
+This repository contains the official implementation of the paper
+**"TAEGAN: Revisit GANs for Tabular Data Generation"**, published at the
+**17th Asian Conference on Machine Learning (ACML 2025)**, PMLR volume 304.
+[[Paper]](https://proceedings.mlr.press/v304/li26c.html)
+
 ## Pre-requisites
 
 1. `Python>=3.10`.
@@ -58,3 +63,28 @@ One can directly run the following to get the sampled tensor:
 python run.py -o diabetes-demo train
 python run.py -o diabetes-demo sample -n 256
 ```
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@InProceedings{pmlr-v304-li26c,
+  title = {TAEGAN: Revisit GANs for Tabular Data Generation},
+  author = {Li, Jiayu and Zhao, Zilong and Yee, Kevin and Javaid, Uzair and Sikdar, Biplab},
+  booktitle = {Proceedings of the 17th Asian Conference on Machine Learning},
+  pages = {670--685},
+  year = {2025},
+  editor = {Lee, Hung-yi and Liu, Tongliang},
+  volume = {304},
+  series = {Proceedings of Machine Learning Research},
+  month = {09--12 Dec},
+  publisher = {PMLR},
+  pdf = {https://raw.githubusercontent.com/mlresearch/v304/main/assets/li26c/li26c.pdf},
+  url = {https://proceedings.mlr.press/v304/li26c.html}
+}
+```
+
+## License
+
+This code is released for non-commercial research and academic purposes only. See [`LICENSE`](LICENSE) for details.
